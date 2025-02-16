@@ -85,8 +85,10 @@ AI integration can address these challenges by automating routine tasks, improvi
    git clone https://github.com/whitegloveai/ai-medical-analysis-agent.git
    cd ai-medical-analysis-agent
 
-   # Install dependencies
-   uv pip install -r requirements.txt
+   # Setup venv  and install dependencies
+   uv venv
+   source .venv/bin/activate
+   uv pip install -r requirements.txt # If you don't want to use uv then do pyenv setup and pip install how you prefer
    ```
 
 2. **Configure API Keys**
