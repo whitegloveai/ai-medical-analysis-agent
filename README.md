@@ -93,6 +93,10 @@ AI integration can address these challenges by automating routine tasks, improvi
 
 2. **Configure API Keys**
    - Get Google API key from [Google AI Studio](https://aistudio.google.com)
+   - *optional observability* Get Agno API key from [Agno Console](https://app.agno.com) 
+  ```bash
+  cp .env.example .env # Add the above keys
+  ```
 
 3. **Run the Application**
    ```bash
@@ -125,6 +129,7 @@ AI integration can address these challenges by automating routine tasks, improvi
 - Uses Gemini 2.0 Flash for analysis
 - Requires stable internet connection
 - API usage costs apply
+- Observability with Agno is *optional*
 - For educational and development purposes only
 - Not a replacement for professional medical diagnosis
 
