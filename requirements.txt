@@ -1,6 +1,6 @@
-python-dotenv>=1.0.0
+python-dotenv 
 google-genai 
-Pillow>=10.0.0
-streamlit>=1.30.0
-agno>=0.1.0
-duckduckgo-search>=4.1.1
+Pillow 
+streamlit
+agno
+duckduckgo-search
